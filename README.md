@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Yoga Studio Project
 
-## Getting Started
+This project is a Yoga Studio website built using TypeScript and Next.js. It incorporates various libraries and technologies such as Framer Motion, Swiper, React-Scroll, and React-Countup. The frontend design is powered by Tailwind CSS.
 
-First, run the development server:
+## Key Technologies Used
+- TypeScript
+- Next.js
+- Framer Motion
+- Swiper
+- React-Scroll
+- React-Countup
+- Tailwind CSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
+In this project, I learned how to integrate animations using Framer Motion and create interactive scrolling effects with React-Scroll. Swiper was utilized for creating dynamic sliders, and React-Countup was employed to animate numerical data. The frontend styling was implemented using Tailwind CSS for a clean and responsive design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- **Animations:** Framer Motion was used to add smooth animations to various elements on the website, enhancing the user experience.
+- **Slider:** The project utilizes Swiper for creating dynamic sliders to showcase different sections and content.
+- **Interactive Scrolling:** React-Scroll was implemented to enable smooth scrolling between sections of the website.
+- **Numerical Animation:** React-Countup was utilized to animate numerical data, providing engaging visual feedback.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
+The project consists of multiple components organized into different sections:
+- **Header:** Contains the navigation menu and logo.
+- **Hero:** Displays a slideshow with engaging messages and calls-to-action.
+- **About:** Provides information about the studio, including featured services and achievements.
+- **Classes:** Showcases different types of yoga classes offered by the studio.
+- **Team:** Provides information about trainers.
+- **Prices:** Provides information about different membership plans.
+- **Testimonial:** Showcases testimonial.
+- **Blog:** Displays recent blog posts related to yoga and wellness.
+- **Footer:** Includes contact information, recent blog posts, a gallery, and a newsletter subscription form.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## How to Use
+To run the project locally, follow these steps:
+1. Clone the repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Start the development server with `npm run dev`.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Feel free to contribute by submitting bug reports, feature requests, or pull requests.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
